@@ -16,7 +16,7 @@ class Halls extends React.Component{
       <View style={styles.container}>
 
         <View style={styles.heading}>
-          <Text style={styles.text}>HALLS - FIRST FLOOR</Text>
+          <Text style={styles.text}>CLASSROOMS</Text>
         </View>
 
       <View style={styles.hallicon}>
@@ -26,7 +26,7 @@ class Halls extends React.Component{
           name='home'
           type='font-awesome'
           size={100}
-          color='white'
+          color='#4d1291'
             onPress={() => navigate('HallsBook',{hallId : 'H11'})}
           />
         <Text style={styles.hallno}>H11</Text>
@@ -37,7 +37,8 @@ class Halls extends React.Component{
           name='home'
           type='font-awesome'
           size={100}
-          color='white'
+          color='#4d1291'
+          onPress={() => navigate('HallsBook',{hallId : 'H12'})}
           />
         <Text style={styles.hallno}>H12</Text>
      </View>
@@ -47,7 +48,8 @@ class Halls extends React.Component{
       name='home'
       type='font-awesome'
       size={100}
-      color='white'
+      color='#4d1291'
+      onPress={() => navigate('HallsBook',{hallId : 'H13'})}
       />
     <Text style={styles.hallno}>H13</Text>
   </View>
@@ -57,7 +59,8 @@ class Halls extends React.Component{
     name='home'
     type='font-awesome'
     size={100}
-    color='white'
+    color='#4d1291'
+    onPress={() => navigate('HallsBook',{hallId : 'H14'})}
     />
   <Text style={styles.hallno}>H14</Text>
 </View>
@@ -67,7 +70,8 @@ class Halls extends React.Component{
   name='home'
   type='font-awesome'
   size={100}
-  color='white'
+  color='#4d1291'
+  onPress={() => navigate('HallsBook',{hallId : 'H15'})}
   />
 <Text style={styles.hallno}>H15</Text>
 </View>
@@ -77,7 +81,8 @@ class Halls extends React.Component{
   name='home'
   type='font-awesome'
   size={100}
-  color='white'
+  color='#4d1291'
+  onPress={() => navigate('HallsBook',{hallId : 'H16'})}
   />
 <Text style={styles.hallno}>H16</Text>
 </View>
@@ -87,7 +92,8 @@ class Halls extends React.Component{
   name='home'
   type='font-awesome'
   size={100}
-  color='white'
+  color='#4d1291'
+  onPress={() => navigate('HallsBook',{hallId : 'H17'})}
   />
 <Text style={styles.hallno}>H17</Text>
 </View>
@@ -102,7 +108,7 @@ export default Halls;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#214B8C',
+    backgroundColor: 'white',
     flexDirection:'column'
 
 
@@ -111,7 +117,7 @@ const styles = StyleSheet.create({
     flex:0.2
   },
   text:{
-    color: 'white',
+    color: '#158c7a',
     marginTop:20,
     textAlign: 'center',
     fontSize: 40,
@@ -120,7 +126,7 @@ const styles = StyleSheet.create({
   },
   hallno:{
     textAlign:'center',
-    color:'white',
+    color:'#158c7a',
     fontSize: 30
   },
  hallicon: {

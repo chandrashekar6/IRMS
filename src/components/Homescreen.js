@@ -1,5 +1,8 @@
 import React from 'react';
-import { Button, StyleSheet, Text, View, Image, Alert } from 'react-native';
+import {  StyleSheet, Text, View, Image, Alert } from 'react-native';
+
+import Button from 'react-native-button';
+
 // import { StackNavigator } from 'react-navigation';
 // import { RootStack } from './Stack';
 
@@ -11,24 +14,42 @@ class Homescreen extends React.Component{
     const { navigate } = this.props.navigation
     return (
       <View style={styles.container}>
-          <Image source={require( '../../HWlogo1.png')}
+
+          <Image source={require( '../../Logo.png')}
             style={styles.img}
             />
           <View>
-            <Text style={styles.text}>Resource Booking</Text>
+            <Text style={styles.text}>RESOURCE BOOKING</Text>
           </View>
+
           <View style={styles.buttonContainer}>
-    <Button title="         Halls       "
-    onPress={() => navigate('HallsScreen')} />
-  </View>
-  <View style={styles.buttonContainer}>
-<Button title="       Courts        "
-accessibilityLabel="Learn more about this purple button" />
-</View>
-<View style={styles.buttonContainer}>
-<Button title="   Guest Rooms   "
-accessibilityLabel="Learn more about this purple button" />
-</View>
+            <Button
+                  containerStyle={{padding:10, height:45, overflow:'hidden', borderRadius:4, backgroundColor: 'white',marginTop:20}}
+                  disabledContainerStyle={{backgroundColor: 'grey'}}
+                     style={{fontSize: 20, color: '#158c7a'}}
+                     styleDisabled={{color: 'red'}}
+                     onPress={() => navigate('HallsScreen')}>
+                    Halls
+           </Button>
+           <Button
+                     containerStyle={{padding:10, height:45, overflow:'hidden', borderRadius:4, backgroundColor: 'white',marginTop:20}}
+              disabledContainerStyle={{backgroundColor: 'grey'}}
+              style={{fontSize: 20, color: '#158c7a'}}
+              styleDisabled={{color: 'red'}}
+              onPress={() => this._handlePress()}>
+              Courts
+            </Button>
+
+              <Button
+                containerStyle={{padding:10, height:45, overflow:'hidden', borderRadius:4, backgroundColor: 'white',marginTop:20}}
+              disabledContainerStyle={{backgroundColor: 'grey'}}
+              style={{fontSize: 20, color: '#158c7a'}}
+              styleDisabled={{color: 'red'}}
+              onPress={() => this._handlePress()}>
+              Guest Rooms
+              </Button>
+
+          </View>
 
 
 
@@ -42,15 +63,16 @@ export default Homescreen;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#214B8C',
+    backgroundColor: '#158c7a',
     alignItems: 'center'
 
   },
   img: {
     backgroundColor: '#214B8C',
-    width:180,
-    height:180,
-    marginTop:30
+    width:700,
+   height:200,
+   borderColor:'black'
+//    marginTop:30
 
   },
   buttonContainer: {
@@ -61,7 +83,7 @@ const styles = StyleSheet.create({
    marginTop:20,
    textAlign: 'center',
    fontSize: 40,
-   fontFamily: 'Roboto'
+   fontFamily: 'sigmarone'
 
  }
 
