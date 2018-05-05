@@ -1,12 +1,16 @@
 import React from 'react';
 import { Button, StyleSheet, Text, View, Image, Alert } from 'react-native';
 import { Icon } from 'react-native-elements';
+// import { StackNavigator } from 'react-navigation';
+// import { RootStack } from './Stack';
 
 class Halls extends React.Component{
   _onPressButton() {
     Alert.alert('You tapped the button!')
   }
   render() {
+
+    const { navigate } = this.props.navigation
 
     return (
       <View style={styles.container}>
@@ -23,6 +27,7 @@ class Halls extends React.Component{
           type='font-awesome'
           size={100}
           color='white'
+            onPress={() => navigate('HallsBook',{hallId : 'H11'})}
           />
         <Text style={styles.hallno}>H11</Text>
        </View>

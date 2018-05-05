@@ -1,14 +1,14 @@
 import React from 'react';
 import { Button, StyleSheet, Text, View, Image, Alert } from 'react-native';
-import { StackNavigator } from 'react-navigation';
-import { RootStack } from './Stack';
+// import { StackNavigator } from 'react-navigation';
+// import { RootStack } from './Stack';
 
 class Homescreen extends React.Component{
   _onPressButton() {
     Alert.alert('You tapped the button!')
   }
   render() {
-    const { navigate } = this.props.navigationStuff
+    const { navigate } = this.props.navigation
     return (
       <View style={styles.container}>
           <Image source={require( '../../HWlogo1.png')}
@@ -38,6 +38,7 @@ accessibilityLabel="Learn more about this purple button" />
 }
 
 export default Homescreen;
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,

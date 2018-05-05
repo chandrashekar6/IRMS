@@ -2,7 +2,9 @@ import React from 'react';
 import { Button, StyleSheet, Text, View, Image, Alert } from 'react-native';
 import { Dropdown } from 'react-native-material-dropdown';
 import { TextField } from 'react-native-material-textfield';
-import CalendarPicker from 'react-native-calendar-picker';
+
+import DatePicker from 'react-native-datepicker'
+
 
 var moment = require('moment');
 
@@ -61,23 +63,19 @@ class HallBook extends React.Component {
     return (
       <View style={styles.container}>
 
-      <View style={styles.heading}>
-      <Text style={styles.text}>BOOK THE HALL</Text>
-      </View>
-
-
 
       <View style={styles.cal}>
-      <CalendarPicker
-        // width={200}
-        // height={500}
+        <CalendarPicker
+          // width={200}
+          // height={500}
 
-        minDate={curdate}
-        maxDate={maximumdate}
-          onDateChange={this.onDateChange}
-        />
+          minDate={curdate}
+          maxDate={maximumdate}
+            onDateChange={this.onDateChange}
+          />
         </View>
-        <View>
+
+        <View style={styles.selectedview}>
           <Text>SELECTED DATE:{ startDate }</Text>
         </View>
 
@@ -97,6 +95,9 @@ class HallBook extends React.Component {
         data={data}
       />
 
+  </View>
+
+<View style={styles.textview}>
       <TextField
 
        label='Event Type'
@@ -106,9 +107,7 @@ class HallBook extends React.Component {
        value={eventtype}
        onChangeText={ (eventtype) => this.setState({ eventtype }) }
      />
-
-        </View>
-
+ </View>
     </View>
     );
   }
@@ -120,27 +119,27 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#214B8C',
     flexDirection: 'column',
-    justifyContent:'space-between',
-    alignItems: 'stretch'
+    //justifyContent:'space-between',
+    //alignItems: 'stretch'
 
   },
   cal:{
-    flex:0.9,
+    //flex:0.9,
     top: 25,
     backgroundColor:'#FFFFFF'
   },
+  selectedview:{
 
-  heading: {
-    flex:0.2
-
+    marginTop: 25
   },
+
   dropdownview: {
-    flex:0.8,
+    //flex:0.8,
     marginTop: 15
   },
   text:{
     color: 'white',
-    marginTop:20,
+  //  marginTop:20,
     textAlign: 'center',
     fontSize: 40,
     fontFamily: 'Roboto'
