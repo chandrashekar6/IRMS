@@ -1,12 +1,14 @@
 import React from 'react';
 import { Button, StyleSheet, Text, View, Image, Alert } from 'react-native';
+import { StackNavigator } from 'react-navigation';
+import { RootStack } from './Stack';
 
 class Homescreen extends React.Component{
   _onPressButton() {
     Alert.alert('You tapped the button!')
   }
   render() {
-
+    const { navigate } = this.props.navigationStuff
     return (
       <View style={styles.container}>
           <Image source={require( '../../HWlogo1.png')}
@@ -17,7 +19,7 @@ class Homescreen extends React.Component{
           </View>
           <View style={styles.buttonContainer}>
     <Button title="         Halls       "
-    onPress={this._onPressButton} />
+    onPress={() => navigate('HallsScreen')} />
   </View>
   <View style={styles.buttonContainer}>
 <Button title="       Courts        "

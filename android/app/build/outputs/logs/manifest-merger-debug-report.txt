@@ -1,0 +1,136 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-vector-icons] /home/lenovo/IRMS/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.54.4] /home/lenovo/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/d8fe68cbd8ca28ba98916c57c421a30f/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/e17e2be3b371aa88e6e0cc0c394111c9/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:23.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/7d5bb03c9a9fdb7db69d4d838e3ceff2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/c6736f3d02f0eb47dfcd973007bcb4b8/AndroidManifest.xml:10:1-18:12
+MERGED from [com.facebook.fresco:fresco:1.3.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/538745a98c500ce36a8d22ea78b25317/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/c4c518da063100c2a37326b35103edf9/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/5eb85ca899a4f6c581a8c61dc7605c39/AndroidManifest.xml:1:1-4:12
+MERGED from [org.webkit:android-jsc:r174650] /home/lenovo/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/c6eda97b38cd7a2bba0860c72f6b2be4/AndroidManifest.xml:1:1-3:12
+MERGED from [com.facebook.fresco:drawee:1.3.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/3178a7ad2272f5ebbd74b2f6fb38ed92/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/344f95810d7b0051c3335858ad49f080/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/a4e53ce8ab7f43225478db6da78de782/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/6f0882f43420611e051e555fb7471c2c/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:1:1-26:12
+	package
+		ADDED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:2:5-23
+		INJECTED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.54.4] /home/lenovo/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/d8fe68cbd8ca28ba98916c57c421a30f/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.54.4] /home/lenovo/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/d8fe68cbd8ca28ba98916c57c421a30f/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:5:22-75
+application
+ADDED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:7:5-24:19
+MERGED from [com.facebook.react:react-native:0.54.4] /home/lenovo/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/d8fe68cbd8ca28ba98916c57c421a30f/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.54.4] /home/lenovo/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/d8fe68cbd8ca28ba98916c57c421a30f/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/e17e2be3b371aa88e6e0cc0c394111c9/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/e17e2be3b371aa88e6e0cc0c394111c9/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/7d5bb03c9a9fdb7db69d4d838e3ceff2/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/7d5bb03c9a9fdb7db69d4d838e3ceff2/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/5eb85ca899a4f6c581a8c61dc7605c39/AndroidManifest.xml:3:3-17
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/5eb85ca899a4f6c581a8c61dc7605c39/AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] /home/lenovo/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/c6eda97b38cd7a2bba0860c72f6b2be4/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /home/lenovo/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/c6eda97b38cd7a2bba0860c72f6b2be4/AndroidManifest.xml:2:3-17
+	android:label
+		ADDED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:9:7-39
+	android:icon
+		ADDED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:10:7-41
+	android:allowBackup
+		ADDED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:12:7-38
+	android:name
+		ADDED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:8:7-38
+activity#com.irms.MainActivity
+ADDED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:13:7-22:18
+	android:label
+		ADDED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:15:9-41
+	android:windowSoftInputMode
+		ADDED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:17:9-51
+	android:configChanges
+		ADDED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:16:9-79
+	android:name
+		ADDED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:18:9-21:25
+action#android.intent.action.MAIN
+ADDED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:19:13-65
+	android:name
+		ADDED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:19:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:20:13-73
+	android:name
+		ADDED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:20:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:23:7-84
+	android:name
+		ADDED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:23:17-81
+uses-sdk
+INJECTED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-vector-icons] /home/lenovo/IRMS/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/lenovo/IRMS/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.54.4] /home/lenovo/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/d8fe68cbd8ca28ba98916c57c421a30f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.54.4] /home/lenovo/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/d8fe68cbd8ca28ba98916c57c421a30f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/e17e2be3b371aa88e6e0cc0c394111c9/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/e17e2be3b371aa88e6e0cc0c394111c9/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/7d5bb03c9a9fdb7db69d4d838e3ceff2/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /home/lenovo/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/7d5bb03c9a9fdb7db69d4d838e3ceff2/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/c6736f3d02f0eb47dfcd973007bcb4b8/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/c6736f3d02f0eb47dfcd973007bcb4b8/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/538745a98c500ce36a8d22ea78b25317/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/538745a98c500ce36a8d22ea78b25317/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/c4c518da063100c2a37326b35103edf9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/c4c518da063100c2a37326b35103edf9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/5eb85ca899a4f6c581a8c61dc7605c39/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/5eb85ca899a4f6c581a8c61dc7605c39/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.fresco:drawee:1.3.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/3178a7ad2272f5ebbd74b2f6fb38ed92/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/3178a7ad2272f5ebbd74b2f6fb38ed92/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/344f95810d7b0051c3335858ad49f080/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/344f95810d7b0051c3335858ad49f080/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/a4e53ce8ab7f43225478db6da78de782/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/a4e53ce8ab7f43225478db6da78de782/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/6f0882f43420611e051e555fb7471c2c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /home/lenovo/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/6f0882f43420611e051e555fb7471c2c/AndroidManifest.xml:5:5-7:41
+INJECTED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /home/lenovo/IRMS/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

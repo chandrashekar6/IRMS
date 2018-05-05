@@ -1,0 +1,4 @@
+#Fri May 04 07:02:31 IST 2018
+base.0=/home/lenovo/IRMS/android/app/build/intermediates/transforms/dexMerger/debug/16
+path.0=classes.dex
+renamed.0=classes.dex

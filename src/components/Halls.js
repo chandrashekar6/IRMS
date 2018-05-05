@@ -10,22 +10,85 @@ class Halls extends React.Component{
 
     return (
       <View style={styles.container}>
+
+        <View style={styles.heading}>
+          <Text style={styles.text}>HALLS - FIRST FLOOR</Text>
+        </View>
+
       <View style={styles.hallicon}>
+
+        <View style={styles.icontext}>
           <Icon style={styles.icon}
           name='home'
           type='font-awesome'
-          size={50}
+          size={100}
           color='white'
           />
+        <Text style={styles.hallno}>H11</Text>
+       </View>
 
-              <Icon style={styles.icon}
-              name='home'
-              type='font-awesome'
-              size={50}
-              color='white'
-              />
-              </View>
+       <View style={styles.icontext}>
+          <Icon style={styles.icon}
+          name='home'
+          type='font-awesome'
+          size={100}
+          color='white'
+          />
+        <Text style={styles.hallno}>H12</Text>
+     </View>
+
+    <View style={styles.icontext}>
+      <Icon style={styles.icon}
+      name='home'
+      type='font-awesome'
+      size={100}
+      color='white'
+      />
+    <Text style={styles.hallno}>H13</Text>
+  </View>
+
+  <View style={styles.icontext}>
+    <Icon style={styles.icon}
+    name='home'
+    type='font-awesome'
+    size={100}
+    color='white'
+    />
+  <Text style={styles.hallno}>H14</Text>
+</View>
+
+<View style={styles.icontext}>
+  <Icon style={styles.icon}
+  name='home'
+  type='font-awesome'
+  size={100}
+  color='white'
+  />
+<Text style={styles.hallno}>H15</Text>
+</View>
+
+<View style={styles.icontext}>
+  <Icon style={styles.icon}
+  name='home'
+  type='font-awesome'
+  size={100}
+  color='white'
+  />
+<Text style={styles.hallno}>H16</Text>
+</View>
+
+<View style={styles.icontext}>
+  <Icon style={styles.icon}
+  name='home'
+  type='font-awesome'
+  size={100}
+  color='white'
+  />
+<Text style={styles.hallno}>H17</Text>
+</View>
+
     </View>
+  </View>
     );
   }
 }
@@ -34,19 +97,39 @@ export default Halls;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-
     backgroundColor: '#214B8C',
-    alignItems: 'center'
+    flexDirection:'column'
+
 
   },
+  heading:{
+    flex:0.2
+  },
+  text:{
+    color: 'white',
+    marginTop:20,
+    textAlign: 'center',
+    fontSize: 40,
+    fontFamily: 'Roboto'
+
+  },
+  hallno:{
+    textAlign:'center',
+    color:'white',
+    fontSize: 30
+  },
  hallicon: {
-   flex: 0.5,
+   flex: 0.7,
    flexDirection: 'row',
-   justifyContent:'space-between',
-  
+   justifyContent:'space-evenly',
+   alignItems: 'stretch',
+   flexWrap: 'wrap'
+
 
  },
  icon:{
-   margin: 50
+  // marginLeft:20,
+  // marginBotton: 20
+
  }
 });

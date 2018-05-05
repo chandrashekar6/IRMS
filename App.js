@@ -2,6 +2,8 @@ import React from 'react';
 import { Button, StyleSheet, Text, View, Image, Alert } from 'react-native';
 import Homescreen from './src/components/Homescreen'
 import Halls from './src/components/Halls'
+import HallBook from './src/components/HallBook'
+import { RootStack } from './src/components/Stack';
 
 export default class App extends React.Component {
 
@@ -9,7 +11,7 @@ export default class App extends React.Component {
 
     return (
       <View style={styles.container}>
-        <Halls/>
+        <RootStack />
     </View>
     );
   }
@@ -17,10 +19,6 @@ export default class App extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#214B8C',
-    alignItems: 'center'
-
+    flex: 1
   }
-
 });
