@@ -4,6 +4,7 @@ import NavigationProps from '../../NavigationProps';
 import Halls from './Halls';
 import HallBook from './HallBook';
 import Homescreen from './Homescreen';
+import StatusScreen from './StatusScreen';
 
 
 export const RootStack = StackNavigator({
@@ -44,6 +45,18 @@ export const RootStack = StackNavigator({
               borderBottomWidth: 3,
             }
       };
+    }
+  },
+  StatusScreen: {
+    screen: StatusScreen,
+    navigationOptions:{
+      title: "Status",
+      headerTintColor: '#ffffff',
+          headerStyle: {
+            backgroundColor: '#158c7a',
+            borderBottomColor: '#ffffff',
+            borderBottomWidth: 3,
+          }
     }
   },
   initialRouteName: 'Home',

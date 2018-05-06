@@ -49,6 +49,15 @@ class Homescreen extends React.Component{
               Guest Rooms
               </Button>
 
+              <Button
+                containerStyle={{padding:10, height:45, overflow:'hidden', borderRadius:4, backgroundColor: '#FFF000',marginTop:20}}
+              disabledContainerStyle={{backgroundColor: 'grey'}}
+              style={{fontSize: 20, color: '#000000'}}
+              styleDisabled={{color: 'red'}}
+              onPress={() => navigate('StatusScreen')}>
+              Check Status
+              </Button>
+
           </View>
 
 
@@ -83,7 +92,7 @@ const styles = StyleSheet.create({
    marginTop:20,
    textAlign: 'center',
    fontSize: 40,
-   fontFamily: 'sigmarone'
+   fontFamily: 'acme_regular'
 
  }
 
