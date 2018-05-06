@@ -5,7 +5,7 @@ import Halls from './Halls';
 import HallBook from './HallBook';
 import Homescreen from './Homescreen';
 import StatusScreen from './StatusScreen';
-
+import TabNav from './Stack1';
 
 export const RootStack = StackNavigator({
   Home: {
@@ -21,14 +21,14 @@ export const RootStack = StackNavigator({
     }
   },
   HallsScreen: {
-    screen: Halls,
+    screen: TabNav,
     navigationOptions:{
-      title: "Halls",
+      title: "HALLS",
       headerTintColor: '#ffffff',
           headerStyle: {
             backgroundColor: '#158c7a',
             borderBottomColor: '#ffffff',
-            borderBottomWidth: 3,
+          //  borderBottomWidth: 3,
           }
     }
   },

@@ -27,9 +27,9 @@ class Halls extends React.Component{
           type='font-awesome'
           size={100}
           color='#4d1291'
-            onPress={() => navigate('HallsBook',{hallId : 'H11'})}
+            onPress={() => navigate('HallsBook',{hallId : 'H01'})}
           />
-        <Text style={styles.hallno}>H11</Text>
+        <Text style={styles.hallno}>H01</Text>
        </View>
 
        <View style={styles.icontext}>
@@ -38,9 +38,9 @@ class Halls extends React.Component{
           type='font-awesome'
           size={100}
           color='#4d1291'
-          onPress={() => navigate('HallsBook',{hallId : 'H12'})}
+          onPress={() => navigate('HallsBook',{hallId : 'H02'})}
           />
-        <Text style={styles.hallno}>H12</Text>
+        <Text style={styles.hallno}>H02</Text>
      </View>
 
     <View style={styles.icontext}>
@@ -49,9 +49,9 @@ class Halls extends React.Component{
       type='font-awesome'
       size={100}
       color='#4d1291'
-      onPress={() => navigate('HallsBook',{hallId : 'H13'})}
+      onPress={() => navigate('HallsBook',{hallId : 'H03'})}
       />
-    <Text style={styles.hallno}>H13</Text>
+    <Text style={styles.hallno}>H03</Text>
   </View>
 
   <View style={styles.icontext}>
@@ -60,9 +60,9 @@ class Halls extends React.Component{
     type='font-awesome'
     size={100}
     color='#4d1291'
-    onPress={() => navigate('HallsBook',{hallId : 'H14'})}
+    onPress={() => navigate('HallsBook',{hallId : 'H04'})}
     />
-  <Text style={styles.hallno}>H14</Text>
+  <Text style={styles.hallno}>H04</Text>
 </View>
 
 <View style={styles.icontext}>
@@ -71,32 +71,11 @@ class Halls extends React.Component{
   type='font-awesome'
   size={100}
   color='#4d1291'
-  onPress={() => navigate('HallsBook',{hallId : 'H15'})}
+  onPress={() => navigate('HallsBook',{hallId : 'H05'})}
   />
-<Text style={styles.hallno}>H15</Text>
+<Text style={styles.hallno}>H05</Text>
 </View>
 
-<View style={styles.icontext}>
-  <Icon style={styles.icon}
-  name='home'
-  type='font-awesome'
-  size={100}
-  color='#4d1291'
-  onPress={() => navigate('HallsBook',{hallId : 'H16'})}
-  />
-<Text style={styles.hallno}>H16</Text>
-</View>
-
-<View style={styles.icontext}>
-  <Icon style={styles.icon}
-  name='home'
-  type='font-awesome'
-  size={100}
-  color='#4d1291'
-  onPress={() => navigate('HallsBook',{hallId : 'H17'})}
-  />
-<Text style={styles.hallno}>H17</Text>
-</View>
 
     </View>
   </View>
