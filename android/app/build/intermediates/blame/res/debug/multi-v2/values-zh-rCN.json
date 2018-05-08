@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/lenovo/IRMS/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml",
+            "outputFile": "/home/pavithra/IRMS/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml",
             "map": [
                 {
-                    "source": "/home/lenovo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/e17e2be3b371aa88e6e0cc0c394111c9/res/values-zh-rCN/values-zh-rCN.xml",
+                    "source": "/home/pavithra/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/3f76fc6f9802fda153c981174ca176de/res/values-zh-rCN/values-zh-rCN.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/83fe027d92d54fcd124e6174eb396be4/res/values-zh-rCN/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "289",
-                        "endColumns": "157",
-                        "endOffsets": "446"
-                    },
-                    "to": {
-                        "startLines": "26",
-                        "startColumns": "4",
-                        "startOffsets": "2660",
-                        "endColumns": "157",
-                        "endOffsets": "2813"
-                    }
-                },
-                {
-                    "source": "/home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/89907423e9a79162dbce9fba88a93258/res/values-zh-rCN/values.xml",
+                    "source": "/home/pavithra/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/f317161db51bd6a7fee4b9f787956cf4/res/values-zh-rCN/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -52,6 +35,23 @@
                         "startOffsets": "1772,1875,2036,2153,2257,2421,2539,2818,2985,3088,3249,3366,3529,3667,3753,3840",
                         "endColumns": "102,160,116,103,163,117,120,166,102,160,116,162,137,85,86,102",
                         "endOffsets": "1870,2031,2148,2252,2416,2534,2655,2980,3083,3244,3361,3524,3662,3748,3835,3938"
+                    }
+                },
+                {
+                    "source": "/home/pavithra/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/fe2010fea4e48872c1b02a196b1efd09/res/values-zh-rCN/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "289",
+                        "endColumns": "157",
+                        "endOffsets": "446"
+                    },
+                    "to": {
+                        "startLines": "26",
+                        "startColumns": "4",
+                        "startOffsets": "2660",
+                        "endColumns": "157",
+                        "endOffsets": "2813"
                     }
                 }
             ]

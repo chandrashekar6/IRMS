@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/lenovo/IRMS/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-land-v4/values-xlarge-land-v4.xml",
+            "outputFile": "/home/pavithra/IRMS/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-land-v4/values-xlarge-land-v4.xml",
             "map": [
                 {
-                    "source": "/home/lenovo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/e17e2be3b371aa88e6e0cc0c394111c9/res/values-xlarge-land/values-xlarge-land.xml",
+                    "source": "/home/pavithra/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/3f76fc6f9802fda153c981174ca176de/res/values-xlarge-land/values-xlarge-land.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",

@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/lenovo/IRMS/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ar/values-ar.xml",
+            "outputFile": "/home/pavithra/IRMS/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ar/values-ar.xml",
             "map": [
                 {
-                    "source": "/home/lenovo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/e17e2be3b371aa88e6e0cc0c394111c9/res/values-ar/values-ar.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "280,397,505,628,732,841,923,1024,1138,1217,1322,1423,1519,1627,1730,1833,1952,2049",
-                        "endColumns": "116,107,122,103,108,81,100,113,78,104,100,95,107,102,102,118,96,100",
-                        "endOffsets": "392,500,623,727,836,918,1019,1133,1212,1317,1418,1514,1622,1725,1828,1947,2044,2145"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,36",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,222,330,453,557,666,748,849,963,1042,1147,1248,1344,1452,1555,1658,1777,4319",
-                        "endColumns": "116,107,122,103,108,81,100,113,78,104,100,95,107,102,102,118,96,100",
-                        "endOffsets": "217,325,448,552,661,743,844,958,1037,1142,1243,1339,1447,1550,1653,1772,1869,4415"
-                    }
-                },
-                {
-                    "source": "/home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/83fe027d92d54fcd124e6174eb396be4/res/values-ar/values.xml",
+                    "source": "/home/pavithra/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/fe2010fea4e48872c1b02a196b1efd09/res/values-ar/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/lenovo/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/89907423e9a79162dbce9fba88a93258/res/values-ar/values.xml",
+                    "source": "/home/pavithra/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/f317161db51bd6a7fee4b9f787956cf4/res/values-ar/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -52,6 +35,23 @@
                         "startOffsets": "1874,1980,2156,2280,2387,2584,2714,3035,3231,3337,3518,3642,3840,4016,4110,4206",
                         "endColumns": "105,175,123,106,196,129,130,195,105,180,123,197,175,93,95,112",
                         "endOffsets": "1975,2151,2275,2382,2579,2709,2840,3226,3332,3513,3637,3835,4011,4105,4201,4314"
+                    }
+                },
+                {
+                    "source": "/home/pavithra/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/3f76fc6f9802fda153c981174ca176de/res/values-ar/values-ar.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "280,397,505,628,732,841,923,1024,1138,1217,1322,1423,1519,1627,1730,1833,1952,2049",
+                        "endColumns": "116,107,122,103,108,81,100,113,78,104,100,95,107,102,102,118,96,100",
+                        "endOffsets": "392,500,623,727,836,918,1019,1133,1212,1317,1418,1514,1622,1725,1828,1947,2044,2145"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,222,330,453,557,666,748,849,963,1042,1147,1248,1344,1452,1555,1658,1777,4319",
+                        "endColumns": "116,107,122,103,108,81,100,113,78,104,100,95,107,102,102,118,96,100",
+                        "endOffsets": "217,325,448,552,661,743,844,958,1037,1142,1243,1339,1447,1550,1653,1772,1869,4415"
                     }
                 }
             ]
