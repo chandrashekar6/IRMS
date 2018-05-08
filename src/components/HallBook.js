@@ -1,35 +1,51 @@
 import React from 'react';
-import { Button, StyleSheet, Text, View, Image, Alert,ScrollView } from 'react-native';
+import { StyleSheet, Text, View, Image, Alert,ScrollView } from 'react-native';
 import { Dropdown } from 'react-native-material-dropdown';
 import { TextField } from 'react-native-material-textfield';
 import { Icon } from 'react-native-elements';
 
-import DatePicker from 'react-native-datepicker'
+import DatePicker from 'react-native-datepicker';
+import Button from 'react-native-button';
 
 
 var moment = require('moment');
 var str;
 class HallBook extends React.Component {
 
-  state = {
-    eventtype: '',
-  };
-  state = {
-    id: '',
-  };
   constructor(props) {
    super(props);
    this.state = {
-     selectedStartDate: null
+     selectedStartDate: null,
+     selectTime: null,
+     eventtype: '',
+     id: '',
    };
-   this.onDateChange = this.onDateChange.bind(this);
+   this.onChange = this.onChange.bind(this);
+   this.handlePress = this.handlePress.bind(this);
  }
+  onChange(value){
+    var x = this.state.selectedStartDate.concat(" ", value)
+    this.setState({
+      selectTime: x
+    })
+    console.log(this.state.selectTime)
+  }
 
- onDateChange(date) {
-   this.setState({
-     selectedStartDate: date
-   });
-}
+  handlePress(){
+    var x = [this.state.selectTime, this.state.eventtype, this.state.id]
+    fetch('http://172.20.10.2:3000/n1/',{
+      method: 'POST',
+      body: JSON.stringify({
+        first: this.state.selectTime,
+        second: this.state.eventtype
+      })
+    })
+    .catch(function (err) {
+        console.log(err)
+        return err;
+      });
+    console.log(x)
+  }
 
 
   render() {
@@ -78,7 +94,7 @@ class HallBook extends React.Component {
         <View style={styles.dateview}>
         <DatePicker
         style={{width: 300,  backgroundColor:'#158c7a'}}
-        date={this.state.date}
+        date={this.state.selectedStartDate}
         mode="date"
         placeholder="Date"
         format="YYYY-MM-DD"
@@ -99,14 +115,14 @@ class HallBook extends React.Component {
 
           },
           dateText: {
-             color: '#000000'
+             color: '#FFFFFF'
            },
            placeholderText: {
-             color: '#000000'
+             color: '#FFFFFF'
            },
           // ... You can check the source to find the other keys.
         }}
-        onDateChange={(date) => {this.setState({date: date})}}
+        onDateChange={(date) => {this.setState({selectedStartDate: date})}}
       />
   </View>
 <View style={styles.timeview}>
@@ -127,11 +143,13 @@ class HallBook extends React.Component {
       rippleCentered={true}
       inputContainerStyle={{ borderBottomColor: 'transparent' }}
       fontSize = {15}
-      labelFontSize= {20}
-      baseColor = 'rgba(0,0,0,1)'
+
+      labelFontSize= {10}
+      baseColor = 'rgba(255,255,255,1)'
         label='                           Time Slot     '
         data={data}
-      
+        valueExtractor={({value}) => value}
+        onChangeText={(value) => {this.onChange(value)}}
       />
 
 
@@ -160,6 +178,16 @@ class HallBook extends React.Component {
           onChangeText={ (id) => this.setState({ id }) }
         />
     </View>
+    <View style={styles.buttonContainer}>
+    <Button
+      containerStyle={{padding:10, height:45, overflow:'hidden', borderRadius:4, backgroundColor: '#4d1291',marginTop:20}}
+    disabledContainerStyle={{backgroundColor: 'grey'}}
+    style={{fontSize: 20, color: '#FFFFFF'}}
+    styleDisabled={{color: 'red'}}
+    onPress={this.handlePress}>
+    Submit
+    </Button>
+  </View>
   </ScrollView>
     </View>
     );
@@ -212,5 +240,9 @@ const styles = StyleSheet.create({
   textview:{
     marginLeft:37,
     marginRight:60
-  }
+  },
+  buttonContainer: {
+   margin: 20,
+
+ }
 });
